@@ -1,65 +1,31 @@
-# jsx-for-adaptive-cards README
+# Adaptive Cards JSX Support for Visual Studio Code 
+A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode)
+for the [Adaptive Cards](http://adaptivecards.io/) [JSX syntax](https://github.com/justinwilaby/babel-plugin-jsx-adaptive-cards)
+including features like auto-complete, validation and error checking, intellisense and hover detail. 
 
-This is the README for your extension "jsx-for-adaptive-cards". After writing up a brief description, we recommend including the following sections.
+# Features 
 
-## Features
+## Code completion
+The entire Adaptive Card schema has been *adapted* to use JSX syntax for authoring cards. These JSX elements are provided
+as code completion snippets
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![Adaptive Card Code Completion](resources/auto-complete-acx.gif)
 
-For example if there is an image subfolder under your extension project workspace:
+### Attribute code completion 
+![Attribute Code Completion](resources/attribute-auto-complete-acx.gif)
 
-\!\[feature X\]\(images/feature-x.png\)
+## Hover
+Get the details of an element by hovering over the tag name, attribute name or attribute values
+![Hover detail](resources/hover-acx.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Schema Validation
+Get notifications of errors as they occur so your Adaptive Card is always valid.
+![Adaprtive Card Validation](resources/validation-acx.gif)
 
-## Requirements
+# Roadmap
+- Formatting - Document formatting and cleanup 
+- Auto-complete and auto import of Components
+- Better error notifications for invalid markup
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+# Contributors Needed!
+I will be welcoming pull requests for bug fixes, features and unit tests. Feel free to dive in!
