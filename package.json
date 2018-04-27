@@ -1,9 +1,10 @@
 {
   "name": "jsx-for-adaptive-cards",
   "displayName": "JSX for Adaptive Cards",
-  "description": "Use ",
+  "description": "A Visual Studio Code extension for the Adaptive Cards JSX syntax including features like auto-complete, validation and error checking, intellisense and hover detail.",
   "version": "0.0.1",
-  "publisher": "jwilaby",
+  "publisher": "justinWilaby",
+  "repository": "https://github.com/justinwilaby/jsx-for-adaptive-cards",
   "engines": {
     "vscode": "^1.21.0"
   },

@@ -1,3 +1,5 @@
+<div style="text-align:center"><img src ="./resources/adaptive-cards-logo.png/></div>
+
 # Adaptive Cards JSX Support for Visual Studio Code 
 A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode)
 for the [Adaptive Cards](http://adaptivecards.io/) [JSX syntax](https://github.com/justinwilaby/babel-plugin-jsx-adaptive-cards)
