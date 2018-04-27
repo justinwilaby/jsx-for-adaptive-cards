@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src ="./resources/adaptive-cards-logo.png/></div>
+![Adaptive Cards Logo](resources/adaptive-cards-logo.png)
 
 # Adaptive Cards JSX Support for Visual Studio Code 
 A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode)
