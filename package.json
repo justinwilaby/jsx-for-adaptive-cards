@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "publisher": "justinWilaby",
   "repository": "https://github.com/justinwilaby/jsx-for-adaptive-cards",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.21.0"
   },
