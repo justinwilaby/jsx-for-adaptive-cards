@@ -3,7 +3,7 @@
   "scopeName": "source.js.jsx.acx",
   "foldingStartMarker": "(/\\*|\\{|\\()",
   "foldingEndMarker": "(\\*/|\\}|\\))",
-  "firstLineMatch": "^#!\\s*/.*\\b(node|js)$\\n?",
+  "firstLineMatch": "^#!\\s*/.*\\b(jsx)$\\n?",
   "fileTypes": [
     "acx"
   ],

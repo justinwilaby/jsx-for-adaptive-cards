@@ -28,7 +28,7 @@
         ],
         "configuration": "./configurations/language-configuration.json",
         "mimetypes": [
-          "text/javascript"
+          "text/jsx-adaptivecard"
         ]
       }
     ],
