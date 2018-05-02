@@ -5,6 +5,10 @@ A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marke
 for the [Adaptive Cards](http://adaptivecards.io/) [JSX syntax](https://github.com/justinwilaby/babel-plugin-jsx-adaptive-cards)
 including features like auto-complete, validation and error checking, intellisense and hover detail. 
 
+### Prerequisites
+This plugin is designed to work in conjunction with the [Babel Plugin for JSX Adaptive cards](https://github.com/justinwilaby/babel-plugin-jsx-adaptive-cards)
+to transpile this syntax to JavaScript. Detailed instructions on installation and usage are provided there. 
+
 # Features 
 
 ## Code completion
@@ -25,8 +29,9 @@ Get notifications of errors as they occur so your Adaptive Card is always valid.
 ![Adaprtive Card Validation](resources/validation-acx.gif)
 
 # Roadmap
-- Formatting - Document formatting and cleanup 
-- Auto-complete and auto import of Components
+- Formatting - Document formatting and cleanup are slated for development now
+- Plugin conversion to TypeScript and code coverage
+- Auto-complete and auto import of ACX Components
 - Better error notifications for invalid markup
 
 # Contributors Needed!

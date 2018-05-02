@@ -10,7 +10,7 @@
     "vscode": "^1.21.0"
   },
   "categories": [
-    "Language Packs"
+    "Programming Languages"
   ],
   "main": "./lib/index.js",
   "activationEvents": [
