@@ -1,6 +1,8 @@
+import {LanguageClientOptions} from 'vscode-languageclient';
+
 const {workspace} = require('vscode');
 
-module.exports = function () {
+export function clientOptions (): LanguageClientOptions {
   return {
     // Register the server for plain text documents
     documentSelector: [{scheme: 'file', language: 'javaScriptAdaptiveCards'}],

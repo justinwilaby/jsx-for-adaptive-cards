@@ -1,7 +1,7 @@
-const {TransportKind} = require('vscode-languageclient');
-const path = require('path');
+import * as path from 'path';
+import {ServerOptions, TransportKind} from 'vscode-languageclient';
 
-module.exports = function () {
+export function serverOptions(): ServerOptions {
   const serverFilePath = path.join(__dirname, 'index.js');
   return {
     run: {
@@ -16,4 +16,4 @@ module.exports = function () {
       }
     }
   }
-};
+}

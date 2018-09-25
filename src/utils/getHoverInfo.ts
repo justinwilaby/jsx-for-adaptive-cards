@@ -1,7 +1,9 @@
-const {findEntityAtPosition} = require('../utils/findEntityAtPosition');
-const {getSchemaFragment, getSchemaPropertyInfo} = require('../utils/schemaUtil');
+import {findEntityAtPosition} from './findEntityAtPosition';
+import {getSchemaFragment, getSchemaPropertyInfo} from './schemaUtil';
+import {Position} from 'sax-wasm/lib';
+import {Hover, TextDocumentContentChangeEvent} from 'vscode-languageserver-types';
 
-async function getHoverInfo(position, document) {
+export async function getHoverInfo(position: Position, document: TextDocumentContentChangeEvent): Promise<Hover | null> {
   const entity = await findEntityAtPosition(position, document.text);
   const {target} = entity;
 
@@ -13,7 +15,7 @@ async function getHoverInfo(position, document) {
     return {contents};
   }
 
-  if (target === 'attribute') {
+  if (target === 'attributeName') {
     const targetProperty = getSchemaPropertyInfo(entity);
     return {contents: targetProperty.description};
   }
@@ -30,7 +32,7 @@ async function getHoverInfo(position, document) {
   }
 }
 
-function arrayToHumanString(array) {
+function arrayToHumanString(array): string {
   if (!Array.isArray(array)) {
     return array.toString();
   }

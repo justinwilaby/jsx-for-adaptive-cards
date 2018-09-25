@@ -3,16 +3,32 @@ export class Sample {
     return (
       <card>
         <body>
-        <imageSet>
-        </imageSet>
+        <choices id="" isMultiSelect={true} style="compact" value="">
+          
+        </choices>
         <text>
           hello
         </text>
-        <text size="mediumm" weight="bolder">My First ACX card!</text>
+        <text size="medium" isSubtle={true} horizontalAlignment="right" weight="bolder">My First ACX card!</text>
+        <input type="date" id="" max="" min="" placeholder="" value=""/>
+        <choices id="test" isMultiSelect={false} style="expanded" value="">
+          <choice title="this is my title" value="value1"/>
+        </choices>
+        <text color="light" horizontalAlignment="center" isSubtle={false} maxLines={3} size="default" weight="default" wrap={false}>
+          hello
+        </text>
+        <columns>
+          <column style="default" width={12}>
+          <text color="default" horizontalAlignment="center" isSubtle={true} maxLines={12} size="default" weight="default" wrap={true}>
+          </text>
+          <choices id="" isMultiSelect={true} style="compact" value="">
+            <choice title="This is my choice" value="some value that I want"/>
+          </choices>
+          </column>
+        </columns>
         </body>
         <actions>
-
-          <action type="submit"></action>
+          <action type="showCard" title=""></action>
         </actions>
       </card>
     )

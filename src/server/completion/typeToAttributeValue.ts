@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   'Input.Text': 'text',
   'Input.Number': 'number',
   'Input.Date': 'date',
